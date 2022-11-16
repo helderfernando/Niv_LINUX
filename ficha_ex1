@@ -1,0 +1,66 @@
+Nivelamento Linux
+
+Comandos Básicos do Linux
+Lista de Exercícios
+
+1) Verificar em qual diretório você se encontra. 
+R: pwd
+
+2) Criar a seguinte estrutura de diretórios dentro do /home/seu_usuario 
+./ifpr
+./trabalho
+./ifpr/textos
+
+R: mkdir ifpr trabalho
+   cd /ifpr
+   touh nano textos
+
+3) Entrar na pasta ifpr
+R: cd /ifpr
+
+4) Criar um arquivo chamado “numeros.txt”, usando o comando cat, contendo os
+seguintes números: 10
+100
+50
+25
+1
+2 
+
+R: cat >  numeros.txt
+ 
+10
+100
+50
+25
+1
+2
+ 
+5) Duplicar o arquivo numeros.txt para numeros1.txt e numeros2.txt
+R: cp numeros.txt numeros1.txt
+   cp numeros.txt numeros2.txt 
+
+
+6) Copiar os arquivos com extensão .txt para a pasta trabalho no home do usuário
+
+R: 
+cp /home/helpdesk/Desktop/Niv_LINUX/Niv_LINUX/ifpr/*  /home/helpdesk/trabalho
+
+
+ 
+
+
+
+7) Exibir todos os arquivos com seus detalhes ( permissões de acesso, data, hora de
+criação, tamanho)
+8) Mudar a permissão de acesso do arquivo numeros.txt para –rwxr-xr-x
+9) Mudar a permissão de acesso do arquivo numeros.txt para -rw-r—r--
+10) Crie a pasta ifprbackup no home do usuário e copie o conteúdo da pasta ifpr, para
+dentro do /home/seu_usuario/ifprbackup
+11) Deletar os arquivos com extensão .txt
+12) Apagar a pasta textos que está dentro de ifpr
+13) Entrar na pasta /home/seu_usuario/ifpr
+14) Renomear o arquivo numeros.txt para sequencia.txt
+15) Listar todos os arquivos da pasta /bin e guardar essa lista em um arquivo chamado
+“listabin.txt”
+16) Qual é o comando que apaga uma pasta vazia? 
+
