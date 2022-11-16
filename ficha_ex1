@@ -46,12 +46,11 @@ R:
 cp /home/helpdesk/Desktop/Niv_LINUX/Niv_LINUX/ifpr/*  /home/helpdesk/trabalho
 
 
- 
-
-
-
 7) Exibir todos os arquivos com seus detalhes ( permissões de acesso, data, hora de
 criação, tamanho)
+
+R: ls -lh
+
 8) Mudar a permissão de acesso do arquivo numeros.txt para –rwxr-xr-x
 9) Mudar a permissão de acesso do arquivo numeros.txt para -rw-r—r--
 10) Crie a pasta ifprbackup no home do usuário e copie o conteúdo da pasta ifpr, para
