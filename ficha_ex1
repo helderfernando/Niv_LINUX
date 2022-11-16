@@ -26,9 +26,26 @@ seguintes números: 10
 1
 2 
 
-R: 
+R: cat >  numeros.txt
+ 
+10
+100
+50
+25
+1
+2
+ 
 5) Duplicar o arquivo numeros.txt para numeros1.txt e numeros2.txt
+R: cp numeros.txt numeros1.txt
+   cp numeros.txt numeros2.txt 
+
+
 6) Copiar os arquivos com extensão .txt para a pasta trabalho no home do usuário
+
+cp 
+
+
+
 7) Exibir todos os arquivos com seus detalhes ( permissões de acesso, data, hora de
 criação, tamanho)
 8) Mudar a permissão de acesso do arquivo numeros.txt para –rwxr-xr-x
