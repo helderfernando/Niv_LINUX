@@ -12,7 +12,8 @@ R: pwd
 ./ifpr/textos
 
 R: mkdir ifpr trabalho
-   touch 
+   cd /ifpr
+   /ifpr/ touh nano textos
 
 
 
