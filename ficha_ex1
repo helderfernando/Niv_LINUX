@@ -3,4 +3,16 @@ Nivelamento Linux
 Comandos Básicos do Linux
 Lista de Exercícios
 
+1) Verificar em qual diretório você se encontra. 
+R: pwd
+
+2) Criar a seguinte estrutura de diretórios dentro do /home/seu_usuario 
+./ifpr
+./trabalho
+./ifpr/textos
+
+R: mkdir ifpr trabalho
+   touch 
+
+
 
